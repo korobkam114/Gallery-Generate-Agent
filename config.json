@@ -1,0 +1,26 @@
+{
+  "api": {
+    "openai_api_key": "",
+    "google_vision_api_key": "",
+    "use_online_api": false
+  },
+  "model": {
+    "clip_model_name": "openai/clip-vit-base-patch32",
+    "device": "auto",
+    "batch_size": 32
+  },
+  "clustering": {
+    "algorithm": "kmeans",
+    "n_clusters": "auto",
+    "auto_cluster_method": "elbow",
+    "min_samples": 5
+  },
+  "output": {
+    "html_template": "outputs/html_template.html",
+    "styles": "outputs/styles.css",
+    "default_output_dir": "outputs/gallery"
+  },
+  "supported_formats": [".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif"]
+}
+
+
